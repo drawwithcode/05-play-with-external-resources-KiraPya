@@ -15,6 +15,7 @@ function setup() {
   background(255);
   analyser = new p5.Amplitude;
    analyser.setInput(mySong);
+
 }
 
 function draw() {
